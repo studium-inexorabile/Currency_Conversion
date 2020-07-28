@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-KINDOF-537849:
+    - webpack-dev-server > chokidar > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - live-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of':
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - live-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of':
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - live-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.556Z'
+    - webpack > watchpack > chokidar > readdirp > micromatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.557Z'
+    - webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.557Z'
+    - webpack > watchpack > chokidar > readdirp > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.557Z'
+    - webpack > watchpack > chokidar > anymatch > micromatch > braces > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-04-17T20:44:19.557Z'
+    - webpack > watchpack > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: ''
+        expires: '2020-04-17T20:44:19.557Z'
+patch: {}
